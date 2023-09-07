@@ -4,7 +4,7 @@
   "port": 5432,
   "username": "postgres",
   "password": "root",
-  "database": "sikara",
+  "database": "shikra",
   "synchronize": true,
   "logging": true,
   "entities": ["src/**/*.entity{.ts,.js}"]

@@ -1,12 +1,13 @@
 import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm';
+
 @Entity()
-export class User {
+export class Schools {
   @PrimaryGeneratedColumn()
   id: number;
 
-  @Column()
+  @Column({default:true})
   name: string;
 
-  @Column()
-  role: string;
+  @Column({default:true})
+  type: string;
 }
